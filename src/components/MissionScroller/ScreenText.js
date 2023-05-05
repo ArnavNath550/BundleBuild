@@ -31,7 +31,7 @@ const ScreenText = ({screen, setCurrentImg, i}) => {
             {screen.subheading}
         </div>
         <div className="screen-cta">
-            <button className="btn-get-quote">
+            <button className="btn-get-quote" onClick={() => window.location = "#quoteForm"}>
                 {screen.ctaTitle}
             </button>
         </div>

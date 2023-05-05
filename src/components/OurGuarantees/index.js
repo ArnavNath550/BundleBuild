@@ -41,7 +41,7 @@ const OurGuarantees = () => {
                 <div class="screen-text text-visible">
                     <div class="screen-heading">First draft - is free</div>
                     <div class="screen-subheading">The first draft of your website will always be free. Your website is more important to us.</div>
-                    <div class="screen-cta"><button class="btn-get-quote">Get your free first-draft</button></div>
+                    <div class="screen-cta"><button class="btn-get-quote" onClick={() => window.location = "#quoteForm"}>Get your free first-draft</button></div>
                 </div>
             </div>
         </section>
@@ -50,7 +50,7 @@ const OurGuarantees = () => {
                 <div class="screen-text text-visible">
                     <div class="screen-heading">Beautiful. Fullstop</div>
                     <div class="screen-subheading">Nothing less than beautiful, we want to give you something that will shine.</div>
-                    <div class="screen-cta"><button class="btn-get-quote">Get your beautiful website</button></div>
+                    <div class="screen-cta"><button class="btn-get-quote" onClick={() => window.location = "#quoteForm"}>Get your beautiful website</button></div>
                 </div>
             </div>
             <div className="our-guaruntee-pane-right">
@@ -65,7 +65,7 @@ const OurGuarantees = () => {
                 <div class="screen-text text-visible">
                     <div class="screen-heading">Revisions, Revisions</div>
                     <div class="screen-subheading">We want to work with you, and revise your website, to your liking.</div>
-                    <div class="screen-cta"><button class="btn-get-quote">Revise, your best website.</button></div>
+                    <div class="screen-cta"><button class="btn-get-quote" onClick={() => window.location = "#quoteForm"}>Revise, your best website.</button></div>
                 </div>
             </div>
         </section>

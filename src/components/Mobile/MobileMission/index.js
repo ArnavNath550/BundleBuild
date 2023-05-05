@@ -38,7 +38,7 @@ const MobileMission = () => {
                             {y.subheading}
                         </div>
                         <div className="mobile-mission-item-cta">
-                            <button className="btn-primary" style={{width: "100%"}}>
+                            <button className="btn-primary" style={{width: "100%"}} onClick={() => window.location = "#quoteForm"}>
                                 {y.ctaTitle}
                             </button>
                         </div>

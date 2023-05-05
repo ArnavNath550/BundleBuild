@@ -1,0 +1,67 @@
+.mission-scroller {
+    position: relative;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+}
+
+.scroller-full-screen-wrapper {
+    width: 50%;
+}
+
+.scroll-full-screen {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.mobile-mockup-wrapper {
+    width: 50%;
+}
+
+.mobile-mockup {
+    position: sticky;
+    top: 150px;
+    transform: translateX(30%);
+    width: 400px;
+    height: 500px;
+}
+
+.mobile-mockup img {
+    width: 100%;
+    height: 100%;
+}
+
+.screen-text {
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.screen-text {
+    opacity: 0;
+    padding-bottom: 80px;
+}
+
+.text-visible {
+    opacity: 1;
+    transition: 0.75s;
+}
+
+.screen-heading {
+    font-size: 2.5em;
+    font-weight: 500;
+    line-height: 55px;
+}
+
+.screen-subheading {
+    font-size: 1.5em;
+    font-weight: 500;
+    color: var(--gray);
+    line-height: 42px;
+}

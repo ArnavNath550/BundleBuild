@@ -1,0 +1,47 @@
+.our-guarantees-container {
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+
+.our-guarantees-title {
+    color: var(--secondary);
+}
+
+.our-guaruntee-pane {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #fff;
+}
+
+.our-guaruntee-pane-left {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 100px;
+}
+
+.our-guaruntee-pane-left .screen-text {
+    padding-left: 0px;
+}
+
+.our-guaruntee-pane-right .screen-text {
+    padding-right: 0px;
+    padding-left: 100px;
+}
+
+.our-guaruntee-pane-right {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 100px;
+}
+
+
+.our-guaruntee-screen-img {
+    width: 400px;
+}

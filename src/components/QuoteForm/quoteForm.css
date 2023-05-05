@@ -1,0 +1,113 @@
+.quote-form-container {
+    background-color: #fff;
+    margin-bottom: 10px;
+}
+
+.quote-form-wrapper {
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote-form {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #fff;
+    width: 550px;
+}
+
+.quote-form-heading-container {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    padding: 50px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.quote-form-heading {
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.quote-form-heading span {
+    background: linear-gradient(181deg, black, #7d7d7d, black);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.quote-form-subheading {
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--gray);
+    line-height: 30px;
+}
+
+.quote-form-item {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.quote-form-input {
+    border: 1px solid #000000;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.quote-form-input-field {
+    border-radius: 3px;
+    outline:none;
+    font-family: "Circular", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    border: 0px;
+    width: 100%;
+    padding: 0px;
+}
+
+.quote-form-input-field:focus {
+    border-color: var(--black);
+}
+
+.quote-form-split {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+}
+
+.quote-form-split .quote-form-item {
+    width: 50%;
+}
+
+.quote-form-split .quote-form-item .quote-form-input-field {
+    width: 100%;
+}
+
+.project-description-txtarea {
+    height: 120px;
+    resize: none;
+}
+
+.quote-form-footer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote-submit-button {
+    border: 1px solid var(--black);
+    background-color: var(--black);
+    color: #fff;
+    padding: 15px;
+    font-size: 17px;
+    font-family: "Circular", sans-serif;
+    border-radius: 5px;
+    width: 150px;
+}

@@ -1,0 +1,16 @@
+:root {
+    --primary: #2f2f2f;
+    --secondary: #1B59F9;
+    --darkSecondary: #1245c7;
+    --black: #424242;
+    --gray: #555555;
+    --white: #fff;
+    --orange: #FC801A;
+    --purple: #694BEA;
+    --darkGray: #ccc;
+    --green: #3A955D;
+    --calm: #FAE6D7;
+    --pageMargin: 24px;
+    --standOutIndex: 1000;
+    --navIndex: 100000;
+}

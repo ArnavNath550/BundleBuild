@@ -15,7 +15,7 @@ const PageHero = () => {
                     <div className="page-hero-subheading">
                     Get a pyaari website that boosts conversions! Affordable prices and expert design
                     </div>
-                    <div className="btn-primary">
+                    <div className="btn-primary" onClick={() => window.location = "#aboutUsSection"}>
                         Lets build your stunning website
                     </div>
                 </div>

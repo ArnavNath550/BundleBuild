@@ -18,7 +18,7 @@ const Header = () => {
     <>
     <header className="page-header">
         <div className="page-header-logo">
-            <img src="/assets/img/logos/bundlebuild_main.svg"/>
+            <img src="assets/img/logos/bundlebuild_main.svg"/>
         </div>
         <div className="page-header-nav-container">
             <nav className="page-header-nav desktop-only">

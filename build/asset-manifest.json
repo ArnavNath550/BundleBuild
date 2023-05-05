@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/BundleBuild/static/css/main.6df0d8c0.css",
+    "main.js": "/BundleBuild/static/js/main.f5d28b4b.js",
+    "static/js/787.af488c48.chunk.js": "/BundleBuild/static/js/787.af488c48.chunk.js",
+    "static/media/circular-bold.ttf": "/BundleBuild/static/media/circular-bold.09628b53cfb0dfa70791.ttf",
+    "static/media/circular-regular.ttf": "/BundleBuild/static/media/circular-regular.5d38673d8fde35a2fe44.ttf",
+    "static/media/circular-bold.woff": "/BundleBuild/static/media/circular-bold.25229a48f13b854c74c9.woff",
+    "static/media/circular-regular.woff": "/BundleBuild/static/media/circular-regular.100eae788e074274b5a8.woff",
+    "static/media/circular-bold.woff2": "/BundleBuild/static/media/circular-bold.1606a5871a73ca3cf141.woff2",
+    "static/media/circular-regular.woff2": "/BundleBuild/static/media/circular-regular.f838a4491f739e88cbe7.woff2",
+    "static/media/logo.svg": "/BundleBuild/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/BundleBuild/index.html",
+    "main.6df0d8c0.css.map": "/BundleBuild/static/css/main.6df0d8c0.css.map",
+    "main.f5d28b4b.js.map": "/BundleBuild/static/js/main.f5d28b4b.js.map",
+    "787.af488c48.chunk.js.map": "/BundleBuild/static/js/787.af488c48.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6df0d8c0.css",
+    "static/js/main.f5d28b4b.js"
+  ]
+}

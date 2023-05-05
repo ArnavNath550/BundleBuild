@@ -23,7 +23,7 @@ const MobileGuarantees = () => {
         },
       ]
   return (
-    <div className="mobile-guarantees-container">
+    <div className="mobile-guarantees-container" id="mobileOurGuaranteesSection">
         <div className="section-step-icon">            
                 <svg width="122" height="247" viewBox="0 0 122 247" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <rect y="124.5" width="122" height="122" rx="61" fill="var(--secondary)"/>

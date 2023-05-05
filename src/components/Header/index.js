@@ -7,6 +7,12 @@ const Header = () => {
         if(type == "ABOUT_US") {
             toggleSidebar();
             window.location = "#aboutUsSection";
+        } else if(type == "OUR_GUARANTEES") {
+            toggleSidebar();
+            window.location = "#mobileOurGuaranteesSection";
+        } else if(type == "SAMPLE_WORKS") {
+            toggleSidebar();
+            window.location = "#sampleWorksSection";
         }
     }
 

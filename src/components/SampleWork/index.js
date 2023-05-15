@@ -37,7 +37,7 @@ const SampleWork = () => {
             <div className="sample-works-content">
                 <div className="sample-work-card">
                     <div className="sample-work-card-image">
-                        <img src="/assets/img/munascafe.png" style={{width: "100%", height: "100%", objectFit: "cover"}}/>
+                        <img src="assets/img/munascafe.png" style={{width: "100%", height: "100%", objectFit: "cover"}}/>
                     </div>
                     <div className="sample-work-card-details">
                         <div className="sample-work-card-type">

@@ -46,7 +46,7 @@ const SampleWork = () => {
                         <div className="sample-work-card-heading">
                             Muna's Cafe
                         </div>
-                        <a href="https://bundlebuild.github.com/YourCafe" className="unstyled-link"><TakeALookButton /></a>
+                        <a href="https://bundlebuild.github.io/YourCafe/" className="unstyled-link"><TakeALookButton /></a>
                     </div>
                 </div>
                 {/* <div className="sample-work-card">

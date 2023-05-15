@@ -37,19 +37,19 @@ const SampleWork = () => {
             <div className="sample-works-content">
                 <div className="sample-work-card">
                     <div className="sample-work-card-image">
-                        
+                        <img src="assets/img/sampleworks/munascafe.svg" style={{width: "100%", height: "100%", objectFit: "cover"}}/>
                     </div>
                     <div className="sample-work-card-details">
                         <div className="sample-work-card-type">
-                            "SAMPLE_TYPE"
+                            CAFE
                         </div>
                         <div className="sample-work-card-heading">
-                            "SAMPLE_HEADING"
+                            Muna's Cafe
                         </div>
-                        <TakeALookButton />
+                        <a href="https://bundlebuild.github.com/YourCafe" className="unstyled-link"><TakeALookButton /></a>
                     </div>
                 </div>
-                <div className="sample-work-card">
+                {/* <div className="sample-work-card">
                     <div className="sample-work-card-image">
                         
                     </div>
@@ -76,7 +76,7 @@ const SampleWork = () => {
                         </div>
                         <TakeALookButton />
                     </div>
-                </div>
+                </div> */}
 
             </div>
         </div>

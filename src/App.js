@@ -29,6 +29,7 @@ function App() {
         <div className="mobile-only">
           <MobileGuarantees />
         </div>
+        <SampleWork />
         <QuoteForm />
         <Footer />
       </div>

@@ -4,6 +4,10 @@
 @import './common/styles/animations.css';
 @import './common/styles/hamburger.css';
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   font-family: 'Circular', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
